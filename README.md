@@ -39,5 +39,4 @@ Layout: `extension/` (manifest, dashboard, `parser.js`, `utils.js`, icons), `scr
 ## Responsible use
 For personal use of files you are entitled to download. Respect TokyoInsider's terms and the rights of content owners.
 
-## Credits and licence
-Original project © 2025 MaJoRX0. This adaptation (browser extension, download queue, strict per-page key handling, tests, icons) is released under the same licence: [Creative Commons Attribution-NonCommercial 4.0 International](LICENSE). **Non-commercial use only**; keep the attribution.
+
