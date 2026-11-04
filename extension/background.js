@@ -1,0 +1,1 @@
+chrome.action.onClicked.addListener(async () => { const url=chrome.runtime.getURL('dashboard.html'); const tabs=await chrome.tabs.query({}); const old=tabs.find(t=>t.url===url); if(old) await chrome.tabs.update(old.id,{active:true}); else await chrome.tabs.create({url}); });

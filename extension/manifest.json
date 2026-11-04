@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Tokyo Browser Downloader",
+  "version": "0.2.0",
+  "description": "Select episodes and download through your browser session.",
+  "permissions": [
+    "downloads",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*.tokyoinsider.com/*",
+    "http://*.tokyoinsider.com/*"
+  ],
+  "action": {
+    "default_title": "Open Tokyo Downloader",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
