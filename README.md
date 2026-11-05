@@ -37,6 +37,4 @@ scripts/build-zip.sh                 # builds dist/Tokyo-Downloader-Extension-<v
 Layout: `extension/` (manifest, dashboard, `parser.js`, `utils.js`, icons), `scripts/`, `INSTALL.md`.
 
 ## Responsible use
-For personal use of files you are entitled to download. Respect TokyoInsider's terms and the rights of content owners.
-
-
+This tool is for educational purposes only. Use responsibly and follow copyright laws.
